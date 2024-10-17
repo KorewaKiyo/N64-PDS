@@ -5,4 +5,5 @@
   (lib (name "ESDA25W")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/ESDA25W/footprints.pretty")(options "")(descr ""))
   (lib (name "ESDA25P35")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/ESDA25P35/footprints.pretty")(options "")(descr ""))
   (lib (name "STUSB4500")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/STUSB4500/footprints.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/Library.pretty")(options "")(descr ""))
 )
