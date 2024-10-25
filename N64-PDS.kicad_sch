@@ -3336,6 +3336,26 @@
 					)
 				)
 			)
+			(symbol "STL6P3LLH6_1_1"
+				(pin power_out line
+					(at 35.56 -10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "STUSB4500:STUSB4500QTR"
 			(pin_names
@@ -4260,12 +4280,6 @@
 		(uuid "421f3c0c-cbb7-41e7-9507-925602d378fa")
 	)
 	(junction
-		(at 40.64 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "456f52ad-dec8-4d50-ba7b-64b4fcf62fb4")
-	)
-	(junction
 		(at 25.4 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4456,6 +4470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7fd1b42-5f94-47a5-998b-8f42e2d1a809")
+	)
+	(junction
+		(at 40.64 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa21366f-a1e9-4fea-a401-8eed40113be0")
 	)
 	(junction
 		(at 113.03 161.29)
@@ -4831,16 +4851,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 72.39) (xy 40.64 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d67de86-ba2b-4a2b-b122-94fd5a2a15d9")
-	)
-	(wire
-		(pts
 			(xy 115.57 72.39) (xy 115.57 73.66)
 		)
 		(stroke
@@ -4968,6 +4978,16 @@
 			(type default)
 		)
 		(uuid "19e0054f-9ade-412d-840d-ef71fd28176d")
+	)
+	(wire
+		(pts
+			(xy 40.64 72.39) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a880c31-e5f7-4bda-8123-5a6e3a3d11d6")
 	)
 	(wire
 		(pts
@@ -5941,6 +5961,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 43.18) (xy 193.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69be98c5-7db3-4db9-b7ce-d7a9f9ceaca7")
+	)
+	(wire
+		(pts
 			(xy 34.29 172.72) (xy 31.75 172.72)
 		)
 		(stroke
@@ -6801,6 +6831,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 43.18) (xy 193.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0caf61-eba9-4156-b024-7e5867002618")
+	)
+	(wire
+		(pts
 			(xy 267.97 138.43) (xy 267.97 135.89)
 		)
 		(stroke
@@ -7161,16 +7201,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 69.85) (xy 40.64 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f06f7587-c005-4d1d-94f4-57e67f269362")
-	)
-	(wire
-		(pts
 			(xy 20.32 35.56) (xy 25.4 35.56)
 		)
 		(stroke
@@ -7268,6 +7298,16 @@
 			(type default)
 		)
 		(uuid "f8338eca-0bbf-45c3-b6aa-ddcd8ac8bc55")
+	)
+	(wire
+		(pts
+			(xy 40.64 69.85) (xy 39.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f892cc27-f71c-477b-b01c-575e47110a33")
 	)
 	(wire
 		(pts
@@ -10294,6 +10334,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 144.78 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10301,7 +10342,7 @@
 		(dnp no)
 		(uuid "78d9c9fc-8fd6-4c43-abc2-d28add332e66")
 		(property "Reference" "R14"
-			(at 141.478 82.55 0)
+			(at 148.082 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +10351,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 145.796 80.01 0)
+			(at 143.764 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10360,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 143.002 78.74 90)
+			(at 146.558 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RYQ0021A-MFG"
+		(property "Footprint" "PTPS55289RYQR:RYQ0021A-MFG"
 			(at 46.99 139.7 0)
 			(effects
 				(font
@@ -11503,72 +11544,6 @@
 			(project "N64-PDS"
 				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac555bf1-5c5e-4d5e-9414-750938dfa329")
-		(property "Reference" "#PWR08"
-			(at 33.02 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1facad5-b85c-44dc-a927-3778ff4679da")
-		)
-		(instances
-			(project "N64-PDS"
-				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12558,7 +12533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "STL6P3LLH6:POWERFLAT_3P3X3P3_STM-M"
+		(property "Footprint" "POWERFLAT_3P3X3P3_STM"
 			(at 152.4 53.34 0)
 			(effects
 				(font
@@ -12610,6 +12585,9 @@
 		)
 		(pin "3"
 			(uuid "797a6adc-a6df-413c-ac14-2c2e2fda3f9f")
+		)
+		(pin "9"
+			(uuid "f860fc79-9618-4125-8450-492d3af3d2de")
 		)
 		(instances
 			(project ""
@@ -12751,6 +12729,72 @@
 			(project ""
 				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cab5ddde-fd61-4cb7-bd1a-1f6f0dc8c88d")
+		(property "Reference" "#PWR08"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df1e5624-df77-4fd4-8b2b-4aee10252c43")
+		)
+		(instances
+			(project "N64-PDS"
+				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12917,7 +12961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RYQ0021A-MFG"
+		(property "Footprint" "PTPS55289RYQR:RYQ0021A-MFG"
 			(at 250.19 149.86 0)
 			(effects
 				(font
@@ -13035,7 +13079,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR_OUT"
+		(property "Value" "I2C_OUT"
 			(at 260.35 16.51 0)
 			(effects
 				(font
@@ -13043,7 +13087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_NV_B04P-NV_1x04_P5.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical"
 			(at 256.54 24.13 0)
 			(effects
 				(font
