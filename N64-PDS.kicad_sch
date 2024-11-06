@@ -4364,12 +4364,6 @@
 		(uuid "76bd6032-8815-462f-9c69-418b0c6d2f28")
 	)
 	(junction
-		(at 207.01 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b3ed65d-528d-4df1-97f8-f73a748af267")
-	)
-	(junction
 		(at 194.31 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4476,6 +4470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa21366f-a1e9-4fea-a401-8eed40113be0")
+	)
+	(junction
+		(at 207.01 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b053edfd-1441-4895-868a-ee20c40c7f2c")
 	)
 	(junction
 		(at 113.03 161.29)
@@ -6598,6 +6598,16 @@
 			(type default)
 		)
 		(uuid "a533cef7-3acc-4a40-84f7-eb377268f4b6")
+	)
+	(wire
+		(pts
+			(xy 120.65 190.5) (xy 120.65 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7120611-5537-45be-a67e-ed3f85592cdc")
 	)
 	(wire
 		(pts
@@ -8913,6 +8923,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cfb520f-019d-4617-bd96-dba4bfd07a9f")
+		(property "Reference" "#PWR025"
+			(at 120.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f17a20d-6955-4357-9b3f-74cf478e6292")
+		)
+		(instances
+			(project "N64-PDS"
+				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 77.47 90)
 		(unit 1)
@@ -9048,7 +9125,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 200.66 109.22 270)
+		(at 200.66 109.22 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9056,7 +9134,7 @@
 		(dnp no)
 		(uuid "31f281bc-d101-48f5-912e-7e773421ef4a")
 		(property "Reference" "C23"
-			(at 201.676 107.95 90)
+			(at 199.644 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +9143,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 194.564 110.49 90)
+			(at 206.756 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9152,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 196.85 110.1852 0)
+			(at 204.47 110.1852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10342,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 154.94 90)
+		(at 95.25 154.94 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10272,7 +10351,7 @@
 		(dnp no)
 		(uuid "783a7656-a7e1-4206-aebf-04123fcc3082")
 		(property "Reference" "C7"
-			(at 93.726 156.21 90)
+			(at 96.774 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,7 +10360,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 101.346 153.924 90)
+			(at 89.154 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +10369,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 99.06 153.9748 0)
+			(at 91.44 153.9748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,7 +13022,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d15b1a33-5d1a-414c-a197-80cac986460d")
 		(property "Reference" "U4"
 			(at 228.6 160.02 0)
@@ -13338,7 +13416,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 267.97 143.51 180)
+		(at 267.97 143.51 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13346,7 +13425,7 @@
 		(dnp no)
 		(uuid "d9298bbd-43ac-4280-b402-bbd361a55346")
 		(property "Reference" "R20"
-			(at 270.764 139.954 0)
+			(at 265.176 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,7 +13434,7 @@
 			)
 		)
 		(property "Value" "274"
-			(at 265.684 140.97 90)
+			(at 270.256 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,7 +13443,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 269.748 143.51 90)
+			(at 266.192 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13469,6 +13548,73 @@
 			(project "N64-PDS"
 				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ded94595-8525-49a6-bf77-4d0fccd23116")
+		(property "Reference" "#PWR024"
+			(at 120.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53def2e1-9fb8-4812-a9ce-8568d868f6c4")
+		)
+		(instances
+			(project "N64-PDS"
+				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13682,7 +13828,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3e71316-2287-4d48-902a-f50c8945c164")
 		(property "Reference" "R5"
 			(at 32.258 102.87 0)
