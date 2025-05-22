@@ -4,3 +4,7 @@ This project aims to replace the bulky AC power supply of the n64 with a small, 
 
 The board is currently in V1 prototyping stage,
 It will currently only support 15v supplies, though 5,9,15 are intended to be supported.
+### Board view
+![animation](https://korewakiyo.github.io/N64-PDS/rotating.gif)
+
+rendered with [kicad-render](https://github.com/linalinn/kicad-render)
