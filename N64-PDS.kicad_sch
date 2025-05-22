@@ -4181,7 +4181,7 @@
 	)
 	(text "Voltage divider for vcc (5v) to ~3.3v for high"
 		(exclude_from_sim no)
-		(at 48.768 176.784 0)
+		(at 46.736 176.784 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -4868,6 +4868,16 @@
 			(type default)
 		)
 		(uuid "04c29e05-c58e-4044-8fae-1328833d6f80")
+	)
+	(wire
+		(pts
+			(xy 100.33 180.34) (xy 104.14 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0527677b-5099-458c-a369-8160bfc10a44")
 	)
 	(wire
 		(pts
@@ -6668,16 +6678,6 @@
 			(type default)
 		)
 		(uuid "9e1fff05-78de-46f8-9cf4-cdc50f41b9b7")
-	)
-	(wire
-		(pts
-			(xy 100.33 180.34) (xy 104.14 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f43bb6f-8267-4a63-98f9-dbaaabbe1237")
 	)
 	(wire
 		(pts
@@ -8909,7 +8909,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 77.47 90)
+		(at 34.29 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8917,7 +8917,7 @@
 		(dnp no)
 		(uuid "2d28263b-9bf0-4685-9b96-204074a6ecd3")
 		(property "Reference" "R3"
-			(at 32.766 79.756 90)
+			(at 35.814 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8925,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 34.036 75.184 90)
+			(at 34.544 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +8933,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 34.29 79.248 90)
+			(at 34.29 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10209,7 @@
 			)
 		)
 		(property "Value" "48.7k"
-			(at 256.54 104.14 90)
+			(at 256.286 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,75 +12091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 96.52 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba84d5dc-5df7-417e-9591-06fcb2a501b9")
-		(property "Reference" "C9"
-			(at 95.504 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 102.616 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 100.33 179.3748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f937fad0-4363-4514-9423-a921e93ce691")
-		)
-		(pin "2"
-			(uuid "01c1012c-f213-4ab6-adce-7e35de3c5a58")
-		)
-		(instances
-			(project "N64-PDS"
-				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 115.57 78.74 270)
 		(unit 1)
@@ -12244,7 +12175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "301"
+		(property "Value" "56.2k"
 			(at 104.14 182.118 90)
 			(effects
 				(font
@@ -12314,7 +12245,7 @@
 			)
 		)
 		(property "Value" "56.2k"
-			(at 193.04 108.204 90)
+			(at 194.31 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12497,6 +12428,75 @@
 			(project "N64-PDS"
 				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4033c36-0439-4ff0-a49d-96214e1068f4")
+		(property "Reference" "C32"
+			(at 97.536 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7n"
+			(at 90.424 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 92.71 181.3052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c0fd9a-c9c6-4f41-ad5d-dc1c51c1df6a")
+		)
+		(pin "2"
+			(uuid "a2faf597-e8c7-495a-8257-2480ef2e1340")
+		)
+		(instances
+			(project "N64-PDS"
+				(path "/9649f91c-0b3c-463e-88a6-37fb387993ef"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -13351,7 +13351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "274"
+		(property "Value" "274k"
 			(at 267.97 141.478 90)
 			(effects
 				(font
@@ -13623,7 +13623,7 @@
 			)
 		)
 		(property "Value" "48.7k"
-			(at 40.64 185.674 90)
+			(at 40.64 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
