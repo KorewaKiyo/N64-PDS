@@ -5,4 +5,5 @@
   (lib (name "STL6P3LLH6")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/STL6P3LLH6/2024-09-27_13-23-32.kicad_sym")(options "")(descr ""))
   (lib (name "ESDA25W")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/ESDA25W/2024-09-27_13-23-13.kicad_sym")(options "")(descr ""))
   (lib (name "ST1S41PHR")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/ST1S41PHR/2024-09-27_22-03-33.kicad_sym")(options "")(descr ""))
+  (lib (name "PTPS55289RYQR")(type "KiCad")(uri "${KIPRJMOD}/hw-lib/PTPS55289RYQR/2024-10-11_13-54-07.kicad_sym")(options "")(descr ""))
 )

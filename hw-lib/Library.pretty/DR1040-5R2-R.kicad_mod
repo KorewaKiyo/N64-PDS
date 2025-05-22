@@ -1,0 +1,201 @@
+(footprint "DR1040-5R2-R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Eaton, MCL2012V1, 2.0x1.2x0.9mm, https://eu.mouser.com/datasheet/2/87/eaton-mcl2012v1-multilayer-chip-inductor-data-shee-1622891.pdf")
+	(tags "Inductor ferrite multilayer power")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "800c9f59-81d8-4d3f-b0a7-045214231516")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DR1040-5R2-R"
+		(at -1 6 0)
+		(layer "F.Fab")
+		(uuid "79430f4c-cc0c-437c-80d1-c54c3e14370b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.5 -0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "495db8a3-9107-454c-b709-4baa8fddddf5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.5 -0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a1eb299-ed96-4c51-8c95-d6a63cce8334")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.5 -0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab8129e1-6345-49dd-b117-ced618be0560")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -3)
+		(end 4 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf059a52-edc3-49ae-9673-fc129af80aca")
+	)
+	(fp_line
+		(start -4 3)
+		(end 4 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d44374f-730a-4bf1-b24b-8727f6e0c6c3")
+	)
+	(fp_line
+		(start -5 -5)
+		(end -5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b02211a1-e126-432d-8b88-4ed2891918fc")
+	)
+	(fp_line
+		(start -5 5)
+		(end 5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e24711a-5e3e-450d-b8b2-dd339ff4766f")
+	)
+	(fp_line
+		(start 5 -5)
+		(end -5 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c878367f-8e5b-4862-8866-ef6c183372d4")
+	)
+	(fp_line
+		(start 5 5)
+		(end 5 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4694a91-f487-4faf-bac8-b64aaf0ff2f0")
+	)
+	(fp_line
+		(start -2 -1)
+		(end -2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8980d6ca-994f-4c58-a131-15b161d3e232")
+	)
+	(fp_line
+		(start -2 1)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "352a5426-23ff-4264-a579-36ba510914e5")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb03b1d9-43a2-4c20-b60c-c7a842ec6fb0")
+	)
+	(fp_line
+		(start 1.5 1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a4249ed-efcd-4c3f-998e-ff9318d40acd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.5 -2 180)
+		(layer "F.Fab")
+		(uuid "53f936e1-cfb4-4764-9ddb-17a4f1f248fd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.5 0)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fbc6f9f6-38f3-45bf-a1c2-7258c12cfa78")
+	)
+	(pad "2" smd rect
+		(at 4.5 0)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1ab3b515-5da5-4336-9d14-ca29c0c1955a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Eaton_MCL2012V1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
